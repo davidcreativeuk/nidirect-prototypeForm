@@ -14,9 +14,11 @@ If you haven't yet, you should first [set up Git]( https://help.github.com/en/gi
 3.	Using the **Clone with HTTPS** option, copy the web URL
 4.	Open terminal (on MAC) or Command prompt (on Windows)
 5.	Chose the directory on your local machine you want to clone the repository to
+
     ```Cd document/repos```    
 6.	Type `git clone`, and then paste the URL you copied earlier.
     It will look like this, with your GitHub username instead of `YOUR-USERNAME`:
+    
     ```Git clone https://github.com/YOUR-USERNAME/nidirect-prototypeForm.git```
 7.	Press **Enter**. Your local clone will be created.
 
