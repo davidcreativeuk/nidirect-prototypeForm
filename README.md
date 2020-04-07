@@ -5,10 +5,7 @@ If you publish your prototypes online, they must be protected by a username and 
 ## Getting started
 ### Step 1: Fork the nidirect-prototypeForm repository
 1.	On [GitHub]( https://github.com/), navigate to the [nidirect-prototypeForm]( https://github.com/DavidMcClelland-uxm/nidirect-prototypeForm) repository
-
 2.	In the top-right corner of the page, click **Fork**.
-
-![click the fork button in the top right hand corner of the page](https://help.github.com/assets/images/help/repository/fork_button.jpg)
 
 ### Step 2: create a local clone of your fork
 1.	If you haven't yet, you should first [set up Git]( https://help.github.com/en/github/getting-started-with-github/set-up-git). Don't forget to [set up authentication to GitHub from Git]( https://help.github.com/en/articles/set-up-git#next-steps-authenticating-with-github-from-git) as well.
@@ -16,8 +13,6 @@ If you publish your prototypes online, they must be protected by a username and 
 2.	On GitHub, navigate to **your fork** of the nidirect-prototypeForm repository. 
 
 3.	Under the repository name, click **Clone or download**.
-
-![click the clone or download button](https://help.github.com/assets/images/help/repository/clone-repo-clone-url-button.png)
 
 4.	Using the **Clone with HTTPS** option, copy the web URL
 
