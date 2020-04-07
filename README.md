@@ -1,9 +1,14 @@
 # nidirect-prototypeForm
+**version 1.0.0**
+
 This is a JavaScript based prototyping kit to create interactive HTML prototypes for [nidirect](https://www.nidirect.gov.uk/) transactions. 
+
 ## Security
 If you publish your prototypes online, they must be protected by a username and password. This is to prevent members of the public finding prototypes and thinking they are real services.
+
 ## Getting started
 If you haven't yet, you should first [set up Git]( https://help.github.com/en/github/getting-started-with-github/set-up-git). Don't forget to [set up authentication to GitHub from Git]( https://help.github.com/en/articles/set-up-git#next-steps-authenticating-with-github-from-git) as well.
+
 ### Step 1: Fork the nidirect-prototypeForm repository
 1.	On [GitHub]( https://github.com/), navigate to the [nidirect-prototypeForm]( https://github.com/DavidMcClelland-uxm/nidirect-prototypeForm) repository
 2.	In the top-right corner of the page, click **Fork**.
