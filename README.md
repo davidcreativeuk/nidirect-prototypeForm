@@ -18,7 +18,9 @@ If you publish your prototypes online, they must be protected by a username and 
 6.	Chose the directory on your local machine you want to clone the repository to
     Cd document/repos
 7.	Type ````git clone````, and then paste the URL you copied earlier. It will look like this, with your GitHub username instead of ````YOUR-USERNAME````:
-    Git clone https://github.com/YOUR-USERNAME/nidirect-prototypeForm.git
+
+Git clone https://github.com/YOUR-USERNAME/nidirect-prototypeForm.git
 8.	Press **Enter**. Your local clone will be created.
+
 Now, you have a local copy of your fork of the nidirect-prototypeForm repository.
 
