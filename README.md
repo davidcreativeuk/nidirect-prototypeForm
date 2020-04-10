@@ -1,9 +1,7 @@
 # nidirect-prototypeForm
 **version 1.0.0**
 
-This is a JavaScript based prototyping kit.
-
-The aim of the kit is to allow designers, with minimal coding skills, to create interactive prototypes for [nidirect]( https://www.nidirect.gov.uk/) services.
+This is a JavaScript based prototyping kit. The aim of the kit is to allow designers, with minimal coding skills, to create interactive prototypes for [nidirect]( https://www.nidirect.gov.uk/) services.
 
 Interactive prototypes are good for usability testing because they act like a real application.
 
