@@ -28,7 +28,7 @@ If you haven't yet, you should first [set up Git]( https://help.github.com/en/gi
     ![click the fork button to create a copy of the nidirect-prototypeForm in your own repository](https://www.davidcreative.co.uk/github/prototypeForm_images/protoForm-guide-fork.png)
 
 ### Step 2: create a local clone of your fork
-1.	On GitHub, navigate to **your fork** of the nidirect-prototypeForm repository. 
+1.	In your GitHub account, navigate to **your fork** of the nidirect-prototypeForm repository. 
 2.	Under the repository name, click **Clone or download**.
 
     ![click the clone or download button](https://www.davidcreative.co.uk/github/prototypeForm_images/protoForm-guide-clone.png)
