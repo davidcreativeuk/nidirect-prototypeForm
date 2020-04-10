@@ -45,7 +45,7 @@ If you haven't yet, you should first [set up Git]( https://help.github.com/en/gi
 
     It will look like this, with your GitHub username instead of `YOUR-USERNAME`:
     
-    ```Git clone https://github.com/YOUR-USERNAME/nidirect-prototypeForm.git```
+    ```git clone https://github.com/YOUR-USERNAME/nidirect-prototypeForm.git```
 7.	Press **Enter**. Your local clone will be created.
 
 Now, you have a local copy of your fork of the nidirect-prototypeForm repository.
