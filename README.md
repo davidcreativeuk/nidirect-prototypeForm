@@ -48,5 +48,11 @@ If you haven't yet, you should first [set up Git]( https://help.github.com/en/gi
     ```git clone https://github.com/YOUR-USERNAME/nidirect-prototypeForm.git```
 7.	Press **Enter**. Your local clone will be created.
 
+
 Now, you have a local copy of your fork of the nidirect-prototypeForm repository.
 
+## Using the protoype kit
+
+Once you have a local copy of the nidirect-prototypeForm repository you can start building your prototype in a HTML editor.
+
+### structure
