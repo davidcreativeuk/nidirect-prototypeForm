@@ -13,8 +13,14 @@ The prototype kit consists of 3 HTML template pages to build your prototype with
 ```
 #### formPage
 The form page is used to display the [gov.uk design system - components](https://design-system.service.gov.uk/components/) that make up your service prototype.
-Each form page collects, validates, and saves the entered values into the browser’s session storage. When the **save and continue** button is pressed If there are no errors to show, due to nothing being entered  before progressing to the next form page.
-You can have as many form pages as you need for your service. I would suggest naming each 
+
+Each form page collects, validates, and saves the entered values into the browser’s session storage. 
+
+When the **save and continue** button is pressed, if there are no errors to show, the browser will go  to the next form page.
+
+You can have as many form pages as you need for your service. I would suggest naming each form page sequentially, i.e. `formPage-1.html`, `formPage-2.html`, `formPage-3.html`
+
+
 #### checkPage
 The check page uses the GOV.UK Design System [check answers pattern](https://design-system.service.gov.uk/patterns/check-answers/) to let users check and change their answers saved in the session storage. 
 You can have only one check page per service in this version of the prototype kit.
