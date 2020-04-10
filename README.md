@@ -22,12 +22,19 @@ If you haven't yet, you should first [set up Git]( https://help.github.com/en/gi
 
 ### Step 1: Fork the nidirect-prototypeForm repository
 1.	On [GitHub]( https://github.com/), navigate to the [nidirect-prototypeForm]( https://github.com/DavidMcClelland-uxm/nidirect-prototypeForm) repository
+
 2.	In the top-right corner of the page, click **Fork**.
+
+    ![click the fork button to create a copy of the nidirect-prototypeForm in your own repository](https://www.davidcreative.co.uk/github/prototypeForm_images/protoForm-guide-fork.png)
 
 ### Step 2: create a local clone of your fork
 1.	On GitHub, navigate to **your fork** of the nidirect-prototypeForm repository. 
 2.	Under the repository name, click **Clone or download**.
+
+    ![click the clone or download button](https://www.davidcreative.co.uk/github/prototypeForm_images/protoForm-guide-clone.png)
 3.	Using the **Clone with HTTPS** option, copy the web URL
+
+    ![click the copy to clipboard button to copy the web URL of your repository](https://www.davidcreative.co.uk/github/prototypeForm_images/protoForm-guide-copyURL.png)
 4.	Open terminal (on MAC) or Command prompt (on Windows)
 5.	Chose the directory on your local machine you want to clone the repository to
 
