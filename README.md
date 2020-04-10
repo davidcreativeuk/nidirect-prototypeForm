@@ -57,6 +57,28 @@ Once you have a local copy of the nidirect-prototypeForm repository you can star
 
 ### Background
 In January 2020, the [nidirect user experience model (UXM)](http://uxm.nidirect.gov.uk/index.html) moved from the [Bootstrap framework (version 3)](https://getbootstrap.com/docs/3.4/) to a nidirect branded version of the [GOV.UK frontend framework (version 3.6.0)]( https://github.com/alphagov/govuk-frontend).
+The prototype kit reflects this change using the components in the [gov.uk design system](https://design-system.service.gov.uk/components/) to create the prototype in nidirect branded template page.
 
-The prototype kit reflects this change using the components in the [gov.uk design system](https://design-system.service.gov.uk/components/) to create the prototype alongside nidirect branded header and footer components.
-
+### How does it work?
+The prototype kit consists of 3 HTML template pages to build your prototype in:
+```
+|_ formPage-1.html
+|_ checkPage.html
+|_ endPage.html
+```
+#### formPage
+The form page is used to display the input components of your service that will collect the user’s data. Use the prebuilt html components listed in the [GOV.UK Design System - components](https://design-system.service.gov.uk/components/) to build your form.
+You can have as many form pages as you need for your service.
+Each form page collects, validates, and saves the values inputted into the browser’s session storage, before progressing to the next form page.
+#### checkPage
+The check page uses the GOV.UK Design System [Check answers pattern](https://design-system.service.gov.uk/patterns/check-answers/) to let users check their answers before submitting their information. 
+#### endPage
+The end page is used to let the users know they’ve completed the service successfully.
+The end page contains a link `clear session` in the footer. 
+```
+<li>
+    <!-- clear data entered and return to start page -->
+    <a class="govuk-link" href="formPage-1.html" onclick="clearData()">Clear session</a>
+</li>
+```
+In usability testing, use this link to clear the user data saved in the session storage and return to the first page of your service. In the example above, the browser will go to the page `formPage-1.html`.
