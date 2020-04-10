@@ -8,13 +8,16 @@ The aim of the kit is to allow designers, with minimal coding skills, to create 
 Interactive prototypes are good for usability testing because they act like a real application.
 
 Your prototype will help you:
-
 * explore and test design ideas much faster and at lower risk than using code
 * ensure your design is the right one for your users before coding
 
+## Limitations
+Do not use the prototype kit for production. Prototypes made with the kit do not have the same security or accessibility provisions as a real service. You should only use the kit to create prototypes for user research and usability testing.
 
 ## Security
-If you publish your prototypes online, they must be protected by a username and password. This is to prevent members of the public finding prototypes and thinking they are real services.
+If you publish your prototypes online, you must protect them with a username and password. This is to stop members of the public finding prototypes and thinking they are real services.
+You must protect user privacy at all times, even when using prototypes. Always make sure you are handling user data appropriately. 
+
 
 ## Getting started
 If you haven't yet, you should first [set up Git]( https://help.github.com/en/github/getting-started-with-github/set-up-git). Don't forget to [set up authentication to GitHub from Git]( https://help.github.com/en/articles/set-up-git#next-steps-authenticating-with-github-from-git) as well.
