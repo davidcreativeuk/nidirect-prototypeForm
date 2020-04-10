@@ -55,4 +55,8 @@ Now, you have a local copy of your fork of the nidirect-prototypeForm repository
 
 Once you have a local copy of the nidirect-prototypeForm repository you can start building your prototype in a HTML editor.
 
-### structure
+### Background
+In January 2020, the [nidirect user experience model (UXM)](http://uxm.nidirect.gov.uk/index.html) moved from the [Bootstrap framework (version 3)](https://getbootstrap.com/docs/3.4/) to a nidirect branded version of the [GOV.UK frontend framework (version 3.6.0)]( https://github.com/alphagov/govuk-frontend).
+
+The prototype kit reflects this change using the components in the [gov.uk design system](https://design-system.service.gov.uk/components/) to create the prototype alongside nidirect branded header and footer components.
+
