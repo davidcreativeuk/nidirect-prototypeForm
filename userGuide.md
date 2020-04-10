@@ -5,7 +5,10 @@ Once you have a local copy of the nidirect-prototypeForm repository you can star
 In January 2020, the [nidirect user experience model (UXM)](http://uxm.nidirect.gov.uk/index.html) moved from the [Bootstrap framework (version 3)](https://getbootstrap.com/docs/3.4/) to a nidirect branded version of the [GOV.UK frontend framework (version 3.6.0)]( https://github.com/alphagov/govuk-frontend).
 The prototype kit reflects this change using the [gov.uk design system - components](https://design-system.service.gov.uk/components/) to create the prototype.
 ### How does it work?
-The prototype kit consists of 3 HTML template pages to build your prototype with:
+The prototype kit uses JavaScript and the browser’s session storage to save and retrieve values entered by the user.
+
+The kit consists of 3 HTML template pages to build your prototype with:
+
 ```
 |_ formPage-1.html
 |_ checkPage.html
