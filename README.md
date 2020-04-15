@@ -3,12 +3,6 @@
 
 This is a JavaScript based prototyping kit. The aim of the kit is to allow designers, with minimal coding skills, to create interactive prototypes for [nidirect]( https://www.nidirect.gov.uk/) services.
 
-Interactive prototypes are good for usability testing because they act like a real application.
-
-Your prototype will help you:
-* explore and test design ideas much faster and at lower risk than using code
-* ensure your design is the right one for your users before coding
-
 ## Limitations
 Do not use the prototype kit for production. Prototypes made with the kit do not have the same security or accessibility provisions as a real service. You should only use the kit to create prototypes for user research and usability testing.
 
@@ -55,4 +49,4 @@ Now, you have a local copy of your fork of the nidirect-prototypeForm repository
 
 Once you have a local copy of the nidirect-prototypeForm repository you can start building your prototype in a HTML editor.
 
-Use the [user guide](./userGuide.md) for instruction on how to build your first prototype.
+Use the [user guide](./userGuide.md) for instructions on how to build your first prototype.
