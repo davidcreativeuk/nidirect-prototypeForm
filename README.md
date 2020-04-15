@@ -15,7 +15,7 @@ You must protect user privacy at all times, even when using prototypes. Always m
 If you haven't yet, you should first [set up Git]( https://help.github.com/en/github/getting-started-with-github/set-up-git). Don't forget to [set up authentication to GitHub from Git]( https://help.github.com/en/articles/set-up-git#next-steps-authenticating-with-github-from-git) as well.
 
 ### Step 1: fork the nidirect-prototypeForm repository
-1.	On [GitHub]( https://github.com/), navigate to the [nidirect-prototypeForm]( https://github.com/DavidMcClelland-uxm/nidirect-prototypeForm) repository
+1.	On [GitHub]( https://github.com/), navigate to the [nidirect-prototypeForm]( https://github.com/DavidMcClelland-ux/nidirect-prototypeForm) repository
 
 2.	In the top-right corner of the page, click **Fork**.
 
