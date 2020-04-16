@@ -25,12 +25,14 @@ You can have only one check page per application in this version of the prototyp
 ### endPage
 The end page is used to let the user know they’ve completed the application successfully.
  
+
 ## Building your prototype
 
 ### Step 1: know what you’re building
 Before you start building, sketch out your design for your prototype.
 
 Sketches allow you to explore design ideas much faster and at lower risk than using the prototype kit right away.
+
 
 ### Step 2: build your form pages
 Form pages are used to ask your users questions and collect their answers.
