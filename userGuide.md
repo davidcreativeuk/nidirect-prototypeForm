@@ -154,5 +154,5 @@ As the nidirect end page design is different from the [GOV.UK design system - en
 * the change links on the check page go to the correct form page
 * once the value has been updated and submitted on a form page it returns to the check page with the new value displayed
 
-3. The main cause of errors is normally due to duplicate `id` attributes.
+3. The main cause of errors is normally due to a duplicate `id`.
     Make sure each input and error component in your prototype has a unique `id`.

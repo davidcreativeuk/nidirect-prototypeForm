@@ -1,13 +1,13 @@
 # nidirect-prototypeForm
 **version 1.0.0**
 
-This is a JavaScript based prototyping kit. The aim of the kit is to allow designers, with minimal coding skills, to create interactive prototypes for [nidirect]( https://www.nidirect.gov.uk/) services.
+This is a JavaScript based prototyping kit. The aim of the kit is to allow designers, with minimal coding skills, to create interactive prototypes for [nidirect]( https://www.nidirect.gov.uk/) applications.
 
 ## Limitations
-Do not use the prototype kit for production. Prototypes made with the kit do not have the same security or accessibility provisions as a real service. You should only use the kit to create prototypes for user research and usability testing.
+Do not use the prototype kit for production. Prototypes made with the kit do not have the same security or accessibility provisions as a real application. You should only use the kit to create prototypes for user research and usability testing.
 
 ## Security
-If you publish your prototypes online, you must protect them with a username and password. This is to stop members of the public finding prototypes and thinking they are real services.
+If you publish your prototypes online, you must protect them with a username and password. This is to stop members of the public finding prototypes and thinking they are real applications.
 You must protect user privacy at all times, even when using prototypes. Always make sure you are handling user data appropriately. 
 
 
@@ -47,6 +47,6 @@ Now, you have a local copy of your fork of the nidirect-prototypeForm repository
 
 ## Using the protoype kit
 
-Once you have a local copy of the nidirect-prototypeForm repository you can start building your prototype in a HTML editor.
+Once you have a copy of the **nidirect-prototypeForm** repository on your computer you can start building your prototype in a HTML editor.
 
 Use the [user guide](./userGuide.md) for instructions on how to build your first prototype.
