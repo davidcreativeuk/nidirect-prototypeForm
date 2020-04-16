@@ -48,6 +48,11 @@ You can have as many form pages as you need for your application.
 3.	Paste the HTML of the component into the document `formPage-1.html` below the `<h1>` heading.
 
 4.	If the component is used to enter data, add a [GOV.UK design system - error message]( https://design-system.service.GOV.UK/components/error-message/) after the label and hint text of the component.
+
+    The error message should describe what to do when the question hasn’t been answered.
+
+    The prototype kit will only show your error message if, when the **save and continue** button is pressed, the question hasn’t been answered.
+
 ```
 <div class="govuk-form-group">
     <label class="govuk-label govuk-label--m" for="firstname">
@@ -61,9 +66,6 @@ You can have as many form pages as you need for your application.
     <input class="govuk-input " id="firstname" name="firstname" type="text">
 </div>
 ```
-    The error message should describe what to do when the question hasn’t been answered.
-
-    The prototype kit will only show your error message if, when the ‘save and continue’ button is pressed, the question hasn’t been answered.
 
 5.	Make sure each input and error component has a unique `id`.
 
@@ -94,9 +96,9 @@ The check page uses the [GOV.UK design system - summary list with actions compon
 1.	Use a separate summary list for each group of related answers *(e.g. title, first name, and surname)*. And use a `<h2>` heading tag to give each group a name. 
 
 2.	Each row `<div class="govuk-summary-list__row">` of the summary list should display:
-    * the question (the component’s label)
-    * the user’s answer
-    * a link to change their answer
+* the question (the component’s label)
+* the user’s answer
+* a link to change their answer
 
 3.	Between the `<dt>` tags with the `class="govuk-summary-list__key"` enter the question (the component’s label).
 ```
@@ -152,13 +154,13 @@ As the nidirect end page design is different from the [GOV.UK design system - en
 
 2.	Move through the prototype checking:
 
-    * the correct error messages are shown for unanswered questions
-    * the questions marked optional do not show an error message when left unanswered
-    * the form page moves to the next page when all the required questions have been answered
-    * the back link at the top of each form page works
-    * the check page displays the entered values correctly
-    * the change links on the check page go to the correct form page
-    * once the value has been updated and submitted on a form page it returns to the check page with the new value displayed
+* the correct error messages are shown for unanswered questions
+* the questions marked optional do not show an error message when left unanswered
+* the form page moves to the next page when all the required questions have been answered
+* the back link at the top of each form page works
+* the check page displays the entered values correctly
+* the change links on the check page go to the correct form page
+* once the value has been updated and submitted on a form page it returns to the check page with the new value displayed
 
 3. The main cause of errors is normally due to a duplicate `id`.
     Make sure each input and error component in your prototype has a unique `id`.
