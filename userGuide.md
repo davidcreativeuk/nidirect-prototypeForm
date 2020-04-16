@@ -115,7 +115,7 @@ The check page uses the [GOV.UK design system - summary list with actions compon
 </dd>
 ```
 
-    To insert a line break after the value, add the attribute `name="newline"` to the `<span>`.
+To insert a line break after the value, add the attribute `name="newline"` to the `<span>`.
 
 ```
 <dd class="govuk-summary-list__value">
