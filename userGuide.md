@@ -95,7 +95,7 @@ The check page uses the [GOV.UK design system - summary list with actions compon
 
 1.	Use a separate summary list for each group of related answers *(e.g. title, first name, and surname)*. And use a `<h2>` heading tag to give each group a name. 
 
-2.	Each row `<div class="govuk-summary-list__row">` of the summary list should display:
+2.	Each row of the summary list should display:
 * the question (the component’s label)
 * the user’s answer
 * a link to change their answer
@@ -114,7 +114,9 @@ The check page uses the [GOV.UK design system - summary list with actions compon
     <span id="firstname"></span>
 </dd>
 ```
-    To insert a line break after the value, add the attribute `name=”newline”` to the `<span>`.
+
+    To insert a line break after the value, add the attribute `name="newline"` to the `<span>`.
+
 ```
 <dd class="govuk-summary-list__value">
     <span id="address-street1" name=”newline” ></span>
@@ -126,6 +128,11 @@ The check page uses the [GOV.UK design system - summary list with actions compon
 
 
 5.	Between the `<dd>` tags with the `class="govuk-summary-list__actions"` insert the link address to the input component’s form page.
+    
+    Make sure to add the component’s label between the `<span>` tags with the ` class="govuk-visually-hidden"`.
+
+    This will help users using assistive technologies to understand the purpose of the link.
+
 ```
 <dd class="govuk-summary-list__actions">
     <a class="govuk-link" href="formPage-1.html">
@@ -133,15 +140,12 @@ The check page uses the [GOV.UK design system - summary list with actions compon
     </a>
 </dd>
 ```
-
-    Make sure to add the component’s label between the `<span>` tags with the ` class="govuk-visually-hidden"`.
-
-    This will help users using assistive technologies to understand the purpose of the link.
+    
 
 ### Step 4: build your end page
 The end page is used to let the users know they’ve completed the application successfully.
 
-The end page contains a link `clear session` in the footer. 
+The end page contains a link **clear session** in the footer. 
 
 Use this link, in usability testing, to clear the user data saved in the Session Storage and return to the first page of your prototype application - `formPage-1.html`.
 
