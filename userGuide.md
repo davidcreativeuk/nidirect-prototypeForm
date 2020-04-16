@@ -3,6 +3,7 @@
 Once you have a copy of the **nidirect-prototypeForm** repository on your computer you can start building your prototype in a HTML editor.
 ## Background
 In January 2020, the [nidirect user experience model (UXM)](http://uxm.nidirect.GOV.UK/index.html) moved from the [Bootstrap framework (version 3)](https://getbootstrap.com/docs/3.4/) to a nidirect branded version of the [GOV.UK frontend framework (version 3.6.0)]( https://github.com/alphagov/govuk-frontend).
+
 The prototype kit reflects this change by using the [GOV.UK design system - components](https://design-system.service.GOV.UK/components/) to create the prototype.
 ## How does it work?
 The prototype kit uses JavaScript and the browser’s Session Storage to save and retrieve values entered by the user.
@@ -15,9 +16,11 @@ The kit consists of three HTML template pages to build your prototype with:
 ```
 ### formPage
 The form page is used to display the [GOV.UK design system - components](https://design-system.service.GOV.UK/components/) that make up your prototype application.
+
 Each form page collects, validates, and saves the entered values into the browser’s Session Storage. 
 ### checkPage
 The check page uses the [GOV.UK Design System - check answers pattern](https://design-system.service.GOV.UK/patterns/check-answers/) to let the user check and change their answers saved in the Session Storage. 
+
 You can have only one check page per application in this version of the prototype kit.
 ### endPage
 The end page is used to let the user know they’ve completed the application successfully.
@@ -35,7 +38,7 @@ Form pages are used to ask your users questions and collect their answers.
 
 2.	Go to [GOV.UK design system - components](https://design-system.service.GOV.UK/components/) and copy the HTML of the component you want to use in your prototype.
 
-![use the copy code button to copy the HTML code of the component to your computer’s clipboard](https://www.davidcreative.co.uk/github/prototypeForm_images/protoForm-guide-copyCode.png)
+    ![use the copy code button to copy the HTML code of the component to your computer’s clipboard](https://www.davidcreative.co.uk/github/prototypeForm_images/protoForm-guide-copyCode.png)
 
 3.	Paste the HTML of the component into the document `formPage-1.html` below the `<h1>` heading.
 
@@ -45,9 +48,11 @@ Form pages are used to ask your users questions and collect their answers.
     <label class="govuk-label govuk-label--m" for="firstname">
         Firstname
     </label>
+
     <span id="firstname-error" class="govuk-error-message">
         <span class="govuk-visually-hidden">Error:</span> Enter your first name
     </span>
+
     <input class="govuk-input " id="firstname" name="firstname" type="text">
 </div>
 ```
@@ -68,7 +73,7 @@ The `id` will be used to identify and save the entered value into the browser’
 ```
 7.	In the ‘save and continue’ button component, at the bottom of the page, enter the next page of your prototype into the `saveData` JavaScript function.
 
-In the example below, the next page will be `’checkPage.html’`
+    In the example below, the next page will be `'checkPage.html'`
 ```
 <button class="govuk-button" onclick="saveData('checkPage.html')">
     Save and continue
@@ -81,12 +86,12 @@ The check page lets users check and change their answers saved in the Session St
 
 The check page uses the [GOV.UK design system - summary list with actions component]( https://design-system.service.GOV.UK/components/summary-list/#summary-list-with-actions) to display the values saved in the Session Storage.
 
-1.	Use a separate summary list for each group of related answers (e.g. title, first name, and surname). And use a `<h2> ` heading tag to give each group a name. 
+1.	Use a separate summary list for each group of related answers *(e.g. title, first name, and surname)*. And use a `<h2>` heading tag to give each group a name. 
 
 2.	Each row `<div class="govuk-summary-list__row">` of the summary list should display:
-•	the question (the component’s label)
-•	the user’s answer
-•	a link to change their answer
+* the question (the component’s label)
+* the user’s answer
+* a link to change their answer
 
 3.	Between the `<dt>` tags with the `class="govuk-summary-list__key"` enter the question (the component’s label).
 ```
@@ -94,7 +99,9 @@ The check page uses the [GOV.UK design system - summary list with actions compon
     First name
 </dt>
 ```
-4.	Between the `<dd>` tags with the `class="govuk-summary-list__value ` insert a `<span>` tag with the same `id` as the input component. This will display the value saved in the browser’s Session Storage.
+4.	Between the `<dd>` tags with the `class="govuk-summary-list__value ` insert a `<span>` tag with the same `id` as the input component.
+
+    This will display the value saved in the browser’s Session Storage.
 ```
 <dd class="govuk-summary-list__value">
     <span id="firstname"></span>
@@ -119,9 +126,9 @@ To insert a line break after the value, add the attribute `name=”newline”` t
     </a>
 </dd>
 ```
-Make sure to add the component’s label between the `<span>` tags with the ` class="govuk-visually-hidden"`.
+    Make sure to add the component’s label between the `<span>` tags with the ` class="govuk-visually-hidden"`.
 
-This will help users using assistive technologies to understand the purpose of the link.
+    This will help users using assistive technologies to understand the purpose of the link.
 
 ### Step 4: build your end page
 The end page is used to let the users know they’ve completed the application successfully.
@@ -130,11 +137,11 @@ The end page contains a link `clear session` in the footer.
 
 Use this link, in usability testing, to clear the user data saved in the Session Storage and return to the first page of your prototype application - `formPage-1.html`.
 
-As the nidirect end page design is different from the [GOV.UK design system - end page](https://design-system.service.GOV.UK/patterns/confirmation-pages/), use the guidance on the [nidirect user experience model (UXM)](http://uxm.nidirect.GOV.UK/writing-guide.html#transaction-end-pages) to write your application completed message.
+As the nidirect end page design is different from the [GOV.UK design system - end page](https://design-system.service.GOV.UK/patterns/confirmation-pages/), use the guidance on the [nidirect user experience model (UXM)](http://uxm.nidirect.GOV.UK/writing-guide.html#transaction-end-pages) to write your 'application completed' message.
 
 
 
-## Step 5: test your prototype for errors
+### Step 5: test your prototype for errors
 1.	Open the first page of your prototype `formPage-1.html` in the Google Chrome browser.
 
 2.	Move through the prototype checking:
@@ -147,4 +154,5 @@ As the nidirect end page design is different from the [GOV.UK design system - en
 * the change links on the check page go to the correct form page
 * once the value has been updated and submitted on a form page it returns to the check page with the new value displayed
 
-3. The main cause of errors is normally due to duplicate input and error component `id`s. Make sure each input and error component in your prototype has a unique `id`.
+3. The main cause of errors is normally due to duplicate `id` attributes.
+    Make sure each input and error component in your prototype has a unique `id`.
