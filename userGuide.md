@@ -119,9 +119,9 @@ To insert a line break after the value, add the attribute `name="newline"` to th
 
 ```
 <dd class="govuk-summary-list__value">
-    <span id="address-street1" name=”newline” ></span>
-    <span id="address-street2" name=”newline” ></span>
-    <span id="address-city" name=”newline” ></span>
+    <span id="address-street1" name="newline" ></span>
+    <span id="address-street2" name="newline" ></span>
+    <span id="address-city" name="newline" ></span>
     <span id="address-postcode"></span>
 </dd>
 ```
