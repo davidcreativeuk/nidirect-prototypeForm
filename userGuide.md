@@ -78,7 +78,7 @@ You can have as many form pages as you need for your application.
 
     ```
     <label class="govuk-label govuk-label--m" for="firstname--opt">
-    |   Firstname (optional)
+        Firstname (optional)
     </label>
     ```
 
@@ -107,7 +107,7 @@ The check page uses the [GOV.UK design system - summary list with actions compon
 3.	Between the `<dt>` tags with the `class="govuk-summary-list__key"` enter the question (the component’s label).
     ```
     <dt class="govuk-summary-list__key">
-    |   First name
+        First name
     </dt>
     ```
 4.	Between the `<dd>` tags with the `class="govuk-summary-list__value ` insert a `<span>` tag with the same `id` as the input component.
@@ -115,7 +115,7 @@ The check page uses the [GOV.UK design system - summary list with actions compon
     This will display the value saved in the browser’s Session Storage.
     ```
     <dd class="govuk-summary-list__value">
-    |   <span id="firstname"></span>
+        <span id="firstname"></span>
     </dd>
     ```
 
@@ -123,9 +123,9 @@ The check page uses the [GOV.UK design system - summary list with actions compon
 
     ```
     <dd class="govuk-summary-list__value">
-    |   <span id="address-street1" name="newline" ></span>
-    |   <span id="address-street2" name="newline" ></span>
-    |   <span id="address-city" name="newline" ></span>
+        <span id="address-street1" name="newline" ></span>
+        <span id="address-street2" name="newline" ></span>
+        <span id="address-city" name="newline" ></span>
         <span id="address-postcode"></span>
     </dd>
     ```
@@ -140,7 +140,7 @@ The check page uses the [GOV.UK design system - summary list with actions compon
     ```
     <dd class="govuk-summary-list__actions">
         <a class="govuk-link" href="formPage-1.html">
-    |       Change<span class="govuk-visually-hidden"> first name</span>
+            Change<span class="govuk-visually-hidden"> first name</span>
         </a>
     </dd>
     ```
