@@ -75,7 +75,7 @@ You can have as many form pages as you need for your application.
     ```
     <input class="govuk-input " id="firstname--opt" name="firstname" type="text">
     ```
-    Remember to update the `for` attribute in the component label to match the new `id` and add the text '(optional)' to the label.
+    Remember to update the `for` attribute in the component label to match the new `id` and add the text **(optional)** to the label.
 
     ```
     <label class="govuk-label govuk-label--m" for="firstname--opt">
@@ -120,7 +120,7 @@ The check page uses the [GOV.UK design system - summary list with actions compon
     </dd>
     ```
 
-To insert a line break after the value, add the attribute `name="newline"` to the `<span>`.
+    To insert a line break after the value, add the attribute `name="newline"` to the `<span>`.
 
     ```
     <dd class="govuk-summary-list__value">
