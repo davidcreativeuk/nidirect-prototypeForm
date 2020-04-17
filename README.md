@@ -48,3 +48,7 @@ Now, you have a copy of the **nidirect-prototypeForm** repository on your comput
 ## Using the protoype kit
 
 Use the [nidirect-prototypeForm: user guide](./userGuide.md) for instructions on how to build your first prototype.
+
+## Issues and suggestions
+If you’ve found an probelme with the protoype kit have a suggestion you can:
+* [create a GitHub issue](https://github.com/DavidMcClelland-ux/nidirect-prototypeForm/issues)
