@@ -19,16 +19,16 @@ If you haven't yet, you should first [set up Git]( https://help.github.com/en/gi
 
 2.	In the top-right corner of the page, click **Fork**.
 
-    ![click the fork button to create a copy of the nidirect-prototypeForm in your own repository](https://www.davidcreative.co.uk/github/prototypeForm_images/protoForm-guide-fork.png)
+    ![click the fork button to create a copy of the nidirect-prototypeForm in your own repository](./assets/github_images/protoForm-guide-fork.png)
 
 ### Step 2: create a clone URL of your fork
 1.	In your GitHub account, navigate to **your fork** of the nidirect-prototypeForm repository. 
 2.	Under the repository name, click **Clone or download**.
 
-    ![click the clone or download button](https://www.davidcreative.co.uk/github/prototypeForm_images/protoForm-guide-clone.png)
+    ![click the clone or download button](./assets/github_images/protoForm-guide-clone.png)
 3.	Using the **Clone with HTTPS** option, copy the web URL
 
-    ![click the copy to clipboard button to copy the web URL of your repository](https://www.davidcreative.co.uk/github/prototypeForm_images/protoForm-guide-copyURL.png)
+    ![click the copy to clipboard button to copy the web URL of your repository](./assets/github_images/protoForm-guide-copyURL.png)
     
 ### Step 3: download the clone to your computer via command line
 4.	Open Terminal (macOS) or Command prompt (Windows)
