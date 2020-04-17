@@ -42,12 +42,6 @@ You can have as many form pages as you need for your application.
 
 4.	If the component is used to enter data, add a [GOV.UK design system - error message]( https://design-system.service.GOV.UK/components/error-message/) after the label and hint text of the component.
 
-    The error message should describe what to do when the user hasn't answered the question.
-
-    The prototype kit will only show your error message if, when the **save and continue** button is pressed, the question hasn’t been answered.
-
-    
-
     ```
     <div class="govuk-form-group">
         <label class="govuk-label govuk-label--m" for="firstname">
@@ -61,6 +55,11 @@ You can have as many form pages as you need for your application.
         <input class="govuk-input " id="firstname" name="firstname" type="text">
     </div>
     ```
+
+    The error message should describe what to do when the user hasn't answered the question.
+
+    The prototype kit will only show your error message if, when the **save and continue** button is pressed, the question hasn’t been answered.
+
 
 5.	Make sure each input and error component has a unique `id`.
 
@@ -79,7 +78,7 @@ You can have as many form pages as you need for your application.
 
     ```
     <label class="govuk-label govuk-label--m" for="firstname--opt">
-        Firstname (optional)
+    |   Firstname (optional)
     </label>
     ```
 
@@ -94,7 +93,7 @@ You can have as many form pages as you need for your application.
 
 
 ### Step 3: build your check page
-The check page lets users check and change their answers saved in the Session Storage. 
+The check page lets the user check and change their answers saved in the Session Storage. 
 
 The check page uses the [GOV.UK design system - summary list with actions component]( https://design-system.service.GOV.UK/components/summary-list/#summary-list-with-actions) to display the values saved in the Session Storage.
 
@@ -108,7 +107,7 @@ The check page uses the [GOV.UK design system - summary list with actions compon
 3.	Between the `<dt>` tags with the `class="govuk-summary-list__key"` enter the question (the component’s label).
     ```
     <dt class="govuk-summary-list__key">
-        First name
+    |   First name
     </dt>
     ```
 4.	Between the `<dd>` tags with the `class="govuk-summary-list__value ` insert a `<span>` tag with the same `id` as the input component.
@@ -116,7 +115,7 @@ The check page uses the [GOV.UK design system - summary list with actions compon
     This will display the value saved in the browser’s Session Storage.
     ```
     <dd class="govuk-summary-list__value">
-        <span id="firstname"></span>
+    |   <span id="firstname"></span>
     </dd>
     ```
 
@@ -124,9 +123,9 @@ The check page uses the [GOV.UK design system - summary list with actions compon
 
     ```
     <dd class="govuk-summary-list__value">
-        <span id="address-street1" name="newline" ></span>
-        <span id="address-street2" name="newline" ></span>
-        <span id="address-city" name="newline" ></span>
+    |   <span id="address-street1" name="newline" ></span>
+    |   <span id="address-street2" name="newline" ></span>
+    |   <span id="address-city" name="newline" ></span>
         <span id="address-postcode"></span>
     </dd>
     ```
@@ -141,18 +140,18 @@ The check page uses the [GOV.UK design system - summary list with actions compon
     ```
     <dd class="govuk-summary-list__actions">
         <a class="govuk-link" href="formPage-1.html">
-            Change<span class="govuk-visually-hidden"> first name</span>
+    |       Change<span class="govuk-visually-hidden"> first name</span>
         </a>
     </dd>
     ```
     
 
 ### Step 4: build your end page
-The end page is used to let the users know they’ve completed the application successfully.
+The end page is used to let the user know they’ve completed the application successfully.
 
-The end page contains a link **clear session** in the footer. 
+The end page contains a **clear session** link in the footer. 
 
-Use this link, in usability testing, to clear the user data saved in the Session Storage and return to the first page of your prototype application - `formPage-1.html`.
+In usability testing, use this link to clear the user data saved in the Session Storage and return to the first page of your prototype application - `formPage-1.html` for the next participant.
 
 As the nidirect end page design is different from the [GOV.UK design system - end page](https://design-system.service.GOV.UK/patterns/confirmation-pages/), use the guidance on the [nidirect user experience model (UXM)](http://uxm.nidirect.GOV.UK/writing-guide.html#transaction-end-pages) to write your 'application completed' message.
 
