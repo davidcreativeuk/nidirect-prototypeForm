@@ -75,7 +75,7 @@ You can have as many form pages as you need for your application.
 ```
 <input class="govuk-input " id="firstname--opt" name="firstname" type="text">
 ```
-7.	In the ‘save and continue’ button component, at the bottom of the page, enter the next page of your prototype into the `saveData` JavaScript function.
+7.	In the **save and continue** button component, at the bottom of the page, enter the next page of your prototype into the **saveData** JavaScript function.
 
     In the example below, the next page will be `'checkPage.html'`
 ```
