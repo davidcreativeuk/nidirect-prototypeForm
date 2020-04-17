@@ -1,28 +1,21 @@
 # nidirect-prototypeForm: user guide
 
 Once you have a copy of the **nidirect-prototypeForm** repository on your computer you can start building your prototype in a HTML editor.
-## Background
-In January 2020, the [nidirect user experience model (UXM)](http://uxm.nidirect.GOV.UK/index.html) moved from the [Bootstrap framework (version 3)](https://getbootstrap.com/docs/3.4/) to a nidirect branded version of the [GOV.UK frontend framework (version 3.6.0)]( https://github.com/alphagov/govuk-frontend).
 
-The prototype kit reflects this change by using the [GOV.UK design system - components](https://design-system.service.GOV.UK/components/) to create the prototype.
 ## How does it work?
 The prototype kit uses JavaScript and the browser’s Session Storage to save and retrieve values entered by the user.
 
 The kit consists of three HTML template pages to build your prototype with:
-```
-|_ formPage-1.html
-|_ checkPage.html
-|_ endPage.html
-```
-### formPage
+
+### formPage-1.html
 The form page is used to display the [GOV.UK design system - components](https://design-system.service.GOV.UK/components/) that make up your prototype application.
 
 Each form page collects, validates, and saves the entered values into the browser’s Session Storage. 
-### checkPage
+### checkPage.html
 The check page uses the [GOV.UK Design System - check answers pattern](https://design-system.service.GOV.UK/patterns/check-answers/) to let the user check and change their answers saved in the Session Storage. 
 
 You can have only one check page per application in this version of the prototype kit.
-### endPage
+### endPage.html
 The end page is used to let the user know they’ve completed the application successfully.
  
 
@@ -59,9 +52,9 @@ You can have as many form pages as you need for your application.
         Firstname
     </label>
 
-    <span id="firstname-error" class="govuk-error-message">
-        <span class="govuk-visually-hidden">Error:</span> Enter your first name
-    </span>
+|   <span id="firstname-error" class="govuk-error-message">
+|       <span class="govuk-visually-hidden">Error:</span> Enter your first name
+|   </span>
 
     <input class="govuk-input " id="firstname" name="firstname" type="text">
 </div>
