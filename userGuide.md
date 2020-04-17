@@ -28,13 +28,13 @@ Sketches allow you to explore design ideas much faster and at lower risk than us
 
 
 ### Step 2: build your form pages
-Form pages are used to ask your users questions and collect their answers.
+Form pages are used to ask the user questions and collect their answers.
 
 You can have as many form pages as you need for your application. 
 
 1.	In your copy of the **nidirect-prototypeForm** on your computer, open the document `formPage-1.html` in a HTML editor.
 
-2.	Go to [GOV.UK design system - components](https://design-system.service.GOV.UK/components/) and copy the HTML of the component you want to use in your prototype.
+2.	Go to [GOV.UK design system - components](https://design-system.service.GOV.UK/components/) and copy the HTML of the components you want to use in your prototype.
 
     ![use the copy code button to copy the HTML code of the component to your computer’s clipboard](https://www.davidcreative.co.uk/github/prototypeForm_images/protoForm-guide-copyCode.png)
 
@@ -42,9 +42,11 @@ You can have as many form pages as you need for your application.
 
 4.	If the component is used to enter data, add a [GOV.UK design system - error message]( https://design-system.service.GOV.UK/components/error-message/) after the label and hint text of the component.
 
-    The error message should describe what to do when the question hasn’t been answered.
+    The error message should describe what to do when the user hasn't answered the question.
 
     The prototype kit will only show your error message if, when the **save and continue** button is pressed, the question hasn’t been answered.
+
+    
 
 ```
 <div class="govuk-form-group">
@@ -66,7 +68,9 @@ You can have as many form pages as you need for your application.
 ```
 <input class="govuk-input " id="firstname" name="firstname" type="text">
 ```
-6.	To make a component optional, add the text `--opt` to the end of the component’s `id` 
+6.	To make a component optional, add the text `--opt` to the end of the component’s `id`.
+
+    If the component is marked as **optional** it will save any value entered. But it will not show its error message if the question hasn’t been answered.
 
 ```
 <input class="govuk-input " id="firstname--opt" name="firstname" type="text">
