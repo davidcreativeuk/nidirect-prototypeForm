@@ -36,7 +36,7 @@ You can have as many form pages as you need for your application.
 
 2.	Go to [GOV.UK design system - components](https://design-system.service.GOV.UK/components/) and copy the HTML of the components you want to use in your prototype.
 
-    ![use the copy code button to copy the HTML code of the component to your computer’s clipboard](https://www.davidcreative.co.uk/github/prototypeForm_images/protoForm-guide-copyCode.png)
+    ![use the copy code button to copy the HTML code of the component to your computer’s clipboard](./assets/github_images/protoForm-guide-copyCode.png)
 
 3.	Paste the HTML of the component into the document `formPage-1.html` below the `<h1>` heading.
 
