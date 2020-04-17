@@ -72,9 +72,10 @@ You can have as many form pages as you need for your application.
 
     If the component is marked as **optional** it will save any value entered. But it will not show its error message if the question hasn’t been answered.
 
-```
-<input class="govuk-input " id="firstname--opt" name="firstname" type="text">
-```
+    ```
+    <input class="govuk-input " id="firstname--opt" name="firstname" type="text">
+    ```
+
 7.	In the **save and continue** button component, at the bottom of the page, enter the next page of your prototype into the **saveData** JavaScript function.
 
     In the example below, the next page will be `'checkPage.html'`
