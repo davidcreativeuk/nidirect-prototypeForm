@@ -49,25 +49,25 @@ You can have as many form pages as you need for your application.
     
 
 ```
-<div class="govuk-form-group">
-    <label class="govuk-label govuk-label--m" for="firstname">
-        Firstname
-    </label>
-
-|   <span id="firstname-error" class="govuk-error-message">
-|       <span class="govuk-visually-hidden">Error:</span> Enter your first name
-|   </span>
-
-    <input class="govuk-input " id="firstname" name="firstname" type="text">
-</div>
-```
+    <div class="govuk-form-group">
+        <label class="govuk-label govuk-label--m" for="firstname">
+            Firstname
+        </label>
+    
+    |   <span id="firstname-error" class="govuk-error-message">
+    |       <span class="govuk-visually-hidden">Error:</span> Enter your first name
+    |   </span>
+    
+        <input class="govuk-input " id="firstname" name="firstname" type="text">
+    </div>
+    ```
 
 5.	Make sure each input and error component has a unique `id`.
 
     The `id` will be used to identify and save the entered value into the browser’s Session Storage.
-```
-<input class="govuk-input " id="firstname" name="firstname" type="text">
-```
+    ```
+    <input class="govuk-input " id="firstname" name="firstname" type="text">
+    ```
 6.	To make a component optional, add the text `--opt` to the end of the component’s `id`.
 
     If the component is marked as **optional** it will save any value entered. But it will not show its error message if the question hasn’t been answered.
@@ -75,15 +75,22 @@ You can have as many form pages as you need for your application.
     ```
     <input class="govuk-input " id="firstname--opt" name="firstname" type="text">
     ```
+    Remember to update the `for` attribute in the component label to match the new `id` and add the text '(optional)' to the label.
+
+    ```
+    <label class="govuk-label govuk-label--m" for="firstname--opt">
+        Firstname (optional)
+    </label>
+    ```
 
 7.	In the **save and continue** button component, at the bottom of the page, enter the next page of your prototype into the **saveData** JavaScript function.
 
     In the example below, the next page will be `'checkPage.html'`
-```
-<button class="govuk-button" onclick="saveData('checkPage.html')">
-    Save and continue
-</button>
-```
+    ```
+    <button class="govuk-button" onclick="saveData('checkPage.html')">
+        Save and continue
+    </button>
+    ```
 
 
 ### Step 3: build your check page
@@ -99,30 +106,30 @@ The check page uses the [GOV.UK design system - summary list with actions compon
 * a link to change their answer
 
 3.	Between the `<dt>` tags with the `class="govuk-summary-list__key"` enter the question (the component’s label).
-```
-<dt class="govuk-summary-list__key">
-    First name
-</dt>
-```
+    ```
+    <dt class="govuk-summary-list__key">
+        First name
+    </dt>
+    ```
 4.	Between the `<dd>` tags with the `class="govuk-summary-list__value ` insert a `<span>` tag with the same `id` as the input component.
 
     This will display the value saved in the browser’s Session Storage.
-```
-<dd class="govuk-summary-list__value">
-    <span id="firstname"></span>
-</dd>
-```
+    ```
+    <dd class="govuk-summary-list__value">
+        <span id="firstname"></span>
+    </dd>
+    ```
 
 To insert a line break after the value, add the attribute `name="newline"` to the `<span>`.
 
-```
-<dd class="govuk-summary-list__value">
-    <span id="address-street1" name="newline" ></span>
-    <span id="address-street2" name="newline" ></span>
-    <span id="address-city" name="newline" ></span>
-    <span id="address-postcode"></span>
-</dd>
-```
+    ```
+    <dd class="govuk-summary-list__value">
+        <span id="address-street1" name="newline" ></span>
+        <span id="address-street2" name="newline" ></span>
+        <span id="address-city" name="newline" ></span>
+        <span id="address-postcode"></span>
+    </dd>
+    ```
 
 
 5.	Between the `<dd>` tags with the `class="govuk-summary-list__actions"` insert the link address to the input component’s form page.
@@ -131,13 +138,13 @@ To insert a line break after the value, add the attribute `name="newline"` to th
 
     This will help users using assistive technologies to understand the purpose of the link.
 
-```
-<dd class="govuk-summary-list__actions">
-    <a class="govuk-link" href="formPage-1.html">
-        Change<span class="govuk-visually-hidden"> first name</span>
-    </a>
-</dd>
-```
+    ```
+    <dd class="govuk-summary-list__actions">
+        <a class="govuk-link" href="formPage-1.html">
+            Change<span class="govuk-visually-hidden"> first name</span>
+        </a>
+    </dd>
+    ```
     
 
 ### Step 4: build your end page
