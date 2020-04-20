@@ -31,16 +31,16 @@ If you haven't yet, you should first [set up Git]( https://help.github.com/en/gi
     ![click the copy to clipboard button to copy the web URL of your repository](./assets/github_images/protoForm-guide-copyURL.png)
     
 ### Step 3: download the clone to your computer via command line
-4.	Open Terminal (macOS) or Command prompt (Windows)
-5.	Type `cd` followed by the path of the folder, on your computer, you want to clone the repository to.
+1.	Open Terminal (macOS) or Command prompt (Windows)
+2.	Type `cd` followed by the path of the folder, on your computer, you want to clone the repository to.
     
     For example `cd document/repos`    
-6.	Type `git clone`, and then paste the URL you copied in **step 2**.
+3.	Type `git clone`, and then paste the URL you copied in **step 2**.
 
     It will look like this, with your GitHub username instead of `YOUR-USERNAME`:
     
     ```git clone https://github.com/YOUR-USERNAME/nidirect-prototypeForm.git```
-7.	Press **Enter**. Your local clone will be created.
+4.	Press **Enter**. Your local clone will be created.
 
 
 Now, you have a copy of the **nidirect-prototypeForm** repository on your computer.
