@@ -36,7 +36,7 @@ You can have as many 'form pages' as you need for your application.
 
 1.	In your copy of the **nidirect-prototypeForm** on your computer, open the document `formPage-1.html` in a HTML editor.
 
-2.	Go to [GOV.UK design system - components](https://design-system.service.GOV.UK/components/) and copy the HTML of the components you want to use in your prototype.
+2.	Go to [GOV.UK design system - components](https://design-system.service.GOV.UK/components/) and copy the HTML of the component you want to use in your prototype.
 
     ![use the copy code button to copy the HTML code of the component to your computer’s clipboard](./assets/github_images/protoForm-guide-copyCode.png)
 
