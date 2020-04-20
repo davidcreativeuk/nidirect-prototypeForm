@@ -164,11 +164,11 @@ As the nidirect end page design is different from the [GOV.UK design system - en
 
 * the correct error messages are shown for unanswered questions
 * the questions marked optional do not show an error message when left unanswered
-* the form page moves to the next page when all the required questions have been answered
-* the back link at the top of each form page works
-* the check page displays the entered values correctly
-* the change links on the check page go to the correct form page
-* once the value has been updated and submitted on a form page it returns to the check page with the new value displayed
+* the **form page** moves to the next page when all the required questions have been answered
+* the back link at the top of each **form page** works
+* the **check page** displays the entered values correctly
+* the change links on the **check page** go to the correct **form page**
+* once the value has been updated and submitted on a **form page** it returns to the **check page** with the new value displayed
 
 3. The main cause of errors is normally due to a duplicate `id`.
     Make sure each input and error component in your prototype has a unique `id`.
