@@ -8,15 +8,15 @@ The prototype kit uses JavaScript and the browser’s Session Storage to save an
 The kit consists of three HTML template pages to build your prototype with:
 
 ### formPage-1.html
-The form page is used to display the [GOV.UK design system - components](https://design-system.service.GOV.UK/components/) that make up your prototype application.
+The *form page* is used to display the [GOV.UK design system - components](https://design-system.service.GOV.UK/components/) that make up your prototype application.
 
-Each form page collects, validates, and saves the entered values into the browser’s Session Storage. 
+Each *form page* collects, validates, and saves the entered values into the browser’s Session Storage. 
 ### checkPage.html
-The check page uses the [GOV.UK Design System - check answers pattern](https://design-system.service.GOV.UK/patterns/check-answers/) to let the user check and change their answers saved in the Session Storage. 
+The *check page* uses the [GOV.UK Design System - check answers pattern](https://design-system.service.GOV.UK/patterns/check-answers/) to let the user check and change their answers saved in the Session Storage. 
 
-You can have only one check page per application in this version of the prototype kit.
+You can have only one *check page* per application in this version of the prototype kit.
 ### endPage.html
-The end page is used to let the user know they’ve completed the application successfully.
+The *end page* is used to let the user know they’ve completed the application successfully.
  
 
 ## Building your prototype
@@ -28,9 +28,9 @@ Sketches allow you to explore design ideas much faster and at lower risk than us
 
 
 ### Step 2: build your form pages
-Form pages are used to ask the user questions and collect their answers.
+*Form pages* are used to ask the user questions and collect their answers.
 
-You can have as many form pages as you need for your application. 
+You can have as many *form pages* as you need for your application. 
 
 1.	In your copy of the **nidirect-prototypeForm** on your computer, open the document `formPage-1.html` in a HTML editor.
 
@@ -93,9 +93,9 @@ You can have as many form pages as you need for your application.
 
 
 ### Step 3: build your check page
-The check page lets the user check and change their answers saved in the Session Storage. 
+The *check page* lets the user check and change their answers saved in the Session Storage. 
 
-The check page uses the [GOV.UK design system - summary list with actions component]( https://design-system.service.GOV.UK/components/summary-list/#summary-list-with-actions) to display the values saved in the Session Storage.
+The *check page* uses the [GOV.UK design system - summary list with actions component]( https://design-system.service.GOV.UK/components/summary-list/#summary-list-with-actions) to display the values saved in the Session Storage.
 
 1.	Use a separate summary list for each group of related answers *(e.g. title, first name, and surname)*. And use a `<h2>` heading tag to give each group a name. 
 
@@ -131,7 +131,7 @@ The check page uses the [GOV.UK design system - summary list with actions compon
     ```
 
 
-5.	Between the `<dd>` tags with the `class="govuk-summary-list__actions"` insert the link address to the input component’s form page.
+5.	Between the `<dd>` tags with the `class="govuk-summary-list__actions"` insert the link address to the input component’s *form page*.
     
     Make sure to add the component’s label between the `<span>` tags with the ` class="govuk-visually-hidden"`.
 
@@ -147,13 +147,13 @@ The check page uses the [GOV.UK design system - summary list with actions compon
     
 
 ### Step 4: build your end page
-The end page is used to let the user know they’ve completed the application successfully.
+The *end page* is used to let the user know they’ve completed the application successfully.
 
-The end page contains a **clear session** link in the footer. 
+The *end page* contains a **clear session** link in the footer. 
 
 In usability testing, use this link to clear the user data saved in the Session Storage and return to the first page of your prototype application - `formPage-1.html` for the next participant.
 
-As the nidirect end page design is different from the [GOV.UK design system - end page](https://design-system.service.GOV.UK/patterns/confirmation-pages/), use the guidance on the [nidirect user experience model (UXM)](http://uxm.nidirect.GOV.UK/writing-guide.html#transaction-end-pages) to write your 'application completed' message.
+As the nidirect *end page* design is different from the [GOV.UK design system - end page](https://design-system.service.GOV.UK/patterns/confirmation-pages/), use the guidance on the [nidirect user experience model (UXM)](http://uxm.nidirect.GOV.UK/writing-guide.html#transaction-end-pages) to write your 'application completed' message.
 
 
 
@@ -164,11 +164,11 @@ As the nidirect end page design is different from the [GOV.UK design system - en
 
 * the correct error messages are shown for unanswered questions
 * the questions marked optional do not show an error message when left unanswered
-* the **form page** moves to the next page when all the required questions have been answered
-* the back link at the top of each **form page** works
-* the **check page** displays the entered values correctly
-* the change links on the **check page** go to the correct **form page**
-* once the value has been updated and submitted on a **form page** it returns to the **check page** with the new value displayed
+* the *form page* moves to the next page when all the required questions have been answered
+* the back link at the top of each *form page* works
+* the *check page* displays the entered values correctly
+* the change links on the *check page* go to the correct *form page*
+* once the value has been updated and submitted on a *form page* it returns to the *check page* with the new value displayed
 
 3. The main cause of errors is normally due to a duplicate `id`.
     Make sure each input and error component in your prototype has a unique `id`.
