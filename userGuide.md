@@ -5,7 +5,7 @@ Once you have a copy of the **nidirect-prototypeForm** repository on your comput
 ## How does it work?
 The prototype kit uses JavaScript and the browser’s Session Storage to save and retrieve values entered by the user.
 
-![The prototype kit save the data entered in the form pages into the browser's session storage. The check page then retrieves and displays those values from the browser's session storage.](./assets/github_images/protoForm-pages.png)
+![The prototype kit save the data entered in the form pages into the browser's session storage. The check page then retrieves and displays those values from the browser's session storage.](./assets/github_images/protoForm_pages.png)
 
 The kit consists of three HTML template pages to build your prototype with:
 
