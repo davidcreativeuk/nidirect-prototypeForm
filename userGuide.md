@@ -45,7 +45,7 @@ You can have as many 'form pages' as you need for your application.
     4. Select **Paste** from the pop up menu
     5. The copy of the file will appear in the folder with the word 'copy' after the original file name
 
-    ![use the right click function to make a copy of a file in Visual Studio Code](./assets/github_images/github-guide-images-vscodeCopyFile.gif)
+        ![use the right click function to make a copy of a file in Visual Studio Code](./assets/github_images/github-guide-images-vscodeCopyFile.gif)
 
 
 3.	Go to [GOV.UK design system - components](https://design-system.service.GOV.UK/components/) and copy the HTML of the component you want to use in your prototype.
