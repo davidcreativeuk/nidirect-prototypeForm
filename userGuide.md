@@ -42,7 +42,7 @@ You can have as many 'form pages' as you need for your application.
     1. Right click on the file you want to copy
     2. Select **Copy** from the pop up menu
     3. Right click below the files in the folder
-    4. Select **Paste**'** from the pop up menu
+    4. Select **Paste** from the pop up menu
     5. The copy of the file will appear in the folder with the word 'copy' after the original file name
 
 
