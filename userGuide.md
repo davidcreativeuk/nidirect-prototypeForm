@@ -1,6 +1,6 @@
 # nidirect-prototypeForm: user guide
 
-Once you have a copy of the **nidirect-prototypeForm** repository on your computer you can start building your prototype in a HTML editor.
+Once you have a copy of the **nidirect-prototypeForm** repository on your computer you can start building your prototype in a free HTML editor like [Visual Studio Code](https://code.visualstudio.com/).
 
 ## How does it work?
 The prototype kit uses JavaScript and the browser’s Session Storage to save and retrieve values entered by the user.
@@ -9,7 +9,7 @@ The prototype kit uses JavaScript and the browser’s Session Storage to save an
 
 The kit consists of three HTML template pages to build your prototype with:
 
-### formPage-1.html
+### formPage.html
 The 'form page' is used to display the [GOV.UK design system - components](https://design-system.service.GOV.UK/components/) that make up your prototype application.
 
 Each 'form page' collects, validates, and saves the entered values into the browser’s Session Storage. 
@@ -34,15 +34,25 @@ Sketches allow you to explore design ideas much faster and at lower risk than us
 
 You can have as many 'form pages' as you need for your application. 
 
-1.	In your copy of the **nidirect-prototypeForm** on your computer, open the document `formPage-1.html` in a HTML editor.
+1.	In a HTML editor, open your copy of the **nidirect-prototypeForm** folder on your computer .
 
-2.	Go to [GOV.UK design system - components](https://design-system.service.GOV.UK/components/) and copy the HTML of the component you want to use in your prototype.
+2.  Make a copy of the HTML template `formPage.html` for each 'form page' in your design.
+
+    To make a copy of a file in [Visual Studio Code](https://code.visualstudio.com/):
+    1. Right click on the file you want to copy
+    2. Select **Copy** from the pop up menu
+    3. Right click below the files in the folder
+    4. Select **Paste**'** from the pop up menu
+    5. The copy of the file will appear in the folder with the word 'copy' after the original file name
+
+
+3.	Go to [GOV.UK design system - components](https://design-system.service.GOV.UK/components/) and copy the HTML of the component you want to use in your prototype.
 
     ![use the copy code button to copy the HTML code of the component to your computer’s clipboard](./assets/github_images/protoForm-guide-copyCode.png)
 
-3.	Paste the HTML of the component into the document `formPage-1.html` below the `<h1>` heading.
+4.	Open the copy of the HTML template `formPage.html` and paste the HTML of the component below the `<h1>` heading.
 
-4.	If the component is used to enter data, add a [GOV.UK design system - error message]( https://design-system.service.GOV.UK/components/error-message/) after the label and hint text of the component.
+5.	If the component is used to enter data, add a [GOV.UK design system - error message]( https://design-system.service.GOV.UK/components/error-message/) after the label and hint text of the component.
 
     ```
     <div class="govuk-form-group">
@@ -63,13 +73,13 @@ You can have as many 'form pages' as you need for your application.
     The prototype kit will only show your error message if, when the **save and continue** button is pressed, the question hasn’t been answered.
 
 
-5.	Make sure each input and error component has a unique `id`.
+6.	Make sure each input and error component has a unique `id`.
 
     The `id` will be used to identify and save the entered value into the browser’s Session Storage.
     ```
     <input class="govuk-input " id="firstname" name="firstname" type="text">
     ```
-6.	To make a component optional, add the text `--opt` to the end of the component’s `id`.
+7.	To make a component optional, add the text `--opt` to the end of the component’s `id`.
 
     If the component is marked as **optional** it will save any value entered. But it will not show its error message if the question hasn’t been answered.
 
@@ -84,7 +94,7 @@ You can have as many 'form pages' as you need for your application.
     </label>
     ```
 
-7.	In the **save and continue** button component, at the bottom of the page, enter the next page of your prototype into the **saveData** JavaScript function.
+8.	In the **save and continue** button component, at the bottom of the page, enter the next page of your prototype into the **saveData** JavaScript function.
 
     In the example below, the next page will be `'checkPage.html'`
     ```
