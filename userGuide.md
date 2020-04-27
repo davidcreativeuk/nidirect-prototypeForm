@@ -30,7 +30,7 @@ Sketches allow you to explore design ideas much faster and at lower risk than us
 
 ### Step 2: make a copy of the HTML template files
 
-1.	In a HTML editor, open your copy of the **nidirect-prototypeForm** folder on your computer.
+1.	Open your copy of the **nidirect-prototypeForm** folder on your computer.
 
 2.  Make a copy of the following HTML template files:
     *   checkPage.html
@@ -106,9 +106,9 @@ You can have as many 'form pages' as you need for your application.
 
 7.	In the **save and continue** button component, at the bottom of the page, enter the next page of your prototype into the **saveData** JavaScript function.
 
-    In the example below, the next page will be `'checkPage.html'`.
+    In the example below, the next page will be `'checkPage-1.html'`.
     ```html
-    <button class="govuk-button" onclick="saveData('checkPage.html')">
+    <button class="govuk-button" onclick="saveData('checkPage-1.html')">
         Save and continue
     </button>
     ```
@@ -125,7 +125,7 @@ Use a separate summary list for each group of related answers *(e.g. title, firs
 
     The 'check page' HTML template already has a summary list with its corresponding `<h2>` heading in place.
     
-    To add another summary list go to [GOV.UK design system - summary list with actions component]( https://design-system.service.GOV.UK/components/summary-list/#summary-list-with-actions), copy the HTML of the component and paste it into the 'check page' below the current summary list.
+    To add another summary list go to [GOV.UK design system - summary list with actions component]( https://design-system.service.GOV.UK/components/summary-list/#summary-list-with-actions), copy the HTML of the component and paste it into your copy of the 'check page' below the current summary list.
 
 2.	Each row of the summary list should display:
     * the question (the component’s label)
@@ -186,9 +186,9 @@ Use a separate summary list for each group of related answers *(e.g. title, firs
     ```
 6.	In the **accept and send** button component, at the bottom of the page, enter the 'end page' of your prototype into the **goTo** JavaScript function.
 
-    In the example below, the 'end page' will be `'endPage.html'`:
+    In the example below, the 'end page' will be `'endPage-1.html'`:
     ```html
-    <button class="govuk-button" data-module="govuk-button" onclick="goTo('endPage.html')">
+    <button class="govuk-button" data-module="govuk-button" onclick="goTo('endPage-1.html')">
         Accept and send
     </button>
     ``` 
