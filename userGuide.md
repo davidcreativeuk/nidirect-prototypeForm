@@ -34,7 +34,7 @@ Sketches allow you to explore design ideas much faster and at lower risk than us
 
 You can have as many 'form pages' as you need for your application. 
 
-1.	In a HTML editor, open your copy of the **nidirect-prototypeForm** folder on your computer .
+1.	In a HTML editor, open your copy of the **nidirect-prototypeForm** folder on your computer.
 
 2.  Make a copy of the HTML template `formPage.html` for each 'form page' in your design.
 
@@ -52,7 +52,7 @@ You can have as many 'form pages' as you need for your application.
 
     ![use the copy code button to copy the HTML code of the component to your computer’s clipboard](./assets/github_images/protoForm-guide-copyCode.png)
 
-4.	Open the copy of the HTML template `formPage.html` and paste the HTML of the component below the `<h1>` heading.
+4.	Open the copy of the 'form page' HTML template `formPage copy.html` and paste the HTML of the component below the `<h1>` heading.
 
 5.	If the component is used to enter data, add a [GOV.UK design system - error message]( https://design-system.service.GOV.UK/components/error-message/) after the label and hint text of the component.
 
