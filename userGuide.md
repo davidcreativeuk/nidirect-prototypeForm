@@ -138,9 +138,21 @@ Use a separate summary list for each group of related answers *(e.g. title, firs
 4.	Between the `<dd>` tags with the `class="govuk-summary-list__value ` insert a `<span>` tag with the same `id` as the input component.
 
     This will display the value saved in the browser’s Session Storage.
+
+
     ```html
     <dd class="govuk-summary-list__value">
         <span id="firstname"></span>
+    </dd>
+    ```
+    To display the saved values of a radio group or checkbox group, insert a `<span>` tag with its corresponding `id` for each available radio button or checkbox.
+    
+    Nothing will be displayed if there is no corresponding value saved in the Session Storage.
+
+     ```html
+    <dd class="govuk-summary-list__value">
+        <span id="radio-confirmAge"></span>
+        <span id="radio-confirmAge-2"></span>
     </dd>
     ```
 
