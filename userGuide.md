@@ -1,6 +1,6 @@
 # nidirect-prototypeForm: user guide
 
-Once you have a copy of the **nidirect-prototypeForm** repository on your computer you can start building your prototype in a HTML editor like [Visual Studio Code](https://code.visualstudio.com/).
+Once you have a copy of the **nidirect-prototypeForm** repository on your computer, you can start building your prototype in a HTML editor like [Visual Studio Code](https://code.visualstudio.com/).
 
 ## How does it work?
 The prototype kit uses JavaScript and the browser’s Session Storage to save and retrieve values entered by the user.
@@ -101,9 +101,9 @@ You can have as many 'form pages' as you need for your application.
     </label>
     ```
 
-7.	In the **Save and continue** button component, at the bottom of the page, enter the next page of your prototype into the **saveData** JavaScript function.
+7.	In the **save and continue** button component, at the bottom of the page, enter the next page of your prototype into the **saveData** JavaScript function.
 
-    In the example below, the next page will be `'checkPage.html'`:
+    In the example below, the next page will be `'checkPage.html'`.
     ```html
     <button class="govuk-button" onclick="saveData('checkPage.html')">
         Save and continue
@@ -120,7 +120,7 @@ Use a separate summary list for each group of related answers *(e.g. title, firs
 
 1.  Open your copy of the 'check page' HTML template.
 
-    The 'check page' HTML template already has a `<h2>` heading and summary list in place.
+    The 'check page' HTML template already has a summary list and its `<h2>` heading in place.
     
     To add another summary list go to [GOV.UK design system - summary list with actions component]( https://design-system.service.GOV.UK/components/summary-list/#summary-list-with-actions), copy the HTML of the component and paste it into the 'check page' below the current summary list.
 
@@ -169,7 +169,7 @@ Use a separate summary list for each group of related answers *(e.g. title, firs
         </a>
     </dd>
     ```
-6.	In the **Accept and send** button component, at the bottom of the page, enter the 'end page' of your prototype into the **goTo** JavaScript function.
+6.	In the **accept and send** button component, at the bottom of the page, enter the 'end page' of your prototype into the **goTo** JavaScript function.
 
     In the example below, the next page will be `'endPage.html'`:
     ```html
@@ -187,8 +187,7 @@ The 'end page' is used to let the user know they’ve completed the application 
 
     As the nidirect 'end page' design is different from the [GOV.UK design system - end page](https://design-system.service.GOV.UK/patterns/confirmation-pages/), use the guidance on the [nidirect user experience model (UXM)](http://uxm.nidirect.GOV.UK/writing-guide.html#transaction-end-pages) to write your 'application completed' message.
 
-3.  The 'end page' contains a **clear session** link in the footer.
-    In usability testing, use this link to clear the user data saved in the Session Storage and return to the first page of your prototype application for the next participant.
+3.  The 'end page' contains a **clear session** link in the footer at the bottom of the page.
 
     Enter the start page of your prototype into the `href` attribute of the **clear session** link.
 
@@ -204,14 +203,7 @@ The 'end page' is used to let the user know they’ve completed the application 
     </li>
     ```
 
-    The Session Storage can also be cleared by closing the browser's tab.
-
-
-
-
-
-
-
+    In usability testing, use this link to clear the user data saved in the Session Storage and return to the first page of your prototype application for the next participant.
 
 ### Step 6: test your prototype for errors
 1.	Open the first page of your prototype in the Google Chrome browser.
@@ -226,5 +218,8 @@ The 'end page' is used to let the user know they’ve completed the application 
 * the change links on the 'check page' go to the correct 'form page'
 * once the value has been updated and submitted on a 'form page' it returns to the 'check page' with the new value displayed
 
-3. The main cause of errors is normally due to a duplicate `id`.
+3. The main cause of errors is normally due to:
+    * an input or error component with a duplicate `id`
+    * an input or error component with no `id`
+
     Make sure each input and error component in your prototype has a unique `id`.
