@@ -32,7 +32,10 @@ Sketches allow you to explore design ideas much faster and at lower risk than us
 
 1.	In a HTML editor, open your copy of the **nidirect-prototypeForm** folder on your computer.
 
-2.  Make a copy of the HTML template files: `checkPage.html`, `endPage.html`, and `formPage.html`.
+2.  Make a copy of the following HTML template files:
+    *   checkPage.html
+    *   endPage.html
+    *   formPage.html
 
     To make a copy of a file in [Visual Studio Code](https://code.visualstudio.com/):
     1. Right click on the file you want to copy
