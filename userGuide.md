@@ -24,7 +24,7 @@ The 'end page' is used to let the user know they’ve completed the application 
 ## Building your prototype
 
 ### Step 1: know what you’re building
-Before you start building, sketch out your design for your prototype.
+Before you start building, sketch out your design for the prototype.
 
 Sketches allow you to explore design ideas much faster and at lower risk than using the prototype kit right away.
 
@@ -125,9 +125,9 @@ Use a separate summary list for each group of related answers *(e.g. title, firs
     To add another summary list go to [GOV.UK design system - summary list with actions component]( https://design-system.service.GOV.UK/components/summary-list/#summary-list-with-actions), copy the HTML of the component and paste it into the 'check page' below the current summary list.
 
 2.	Each row of the summary list should display:
-* the question (the component’s label)
-* the user’s answer
-* a link to change their answer
+    * the question (the component’s label)
+    * the user’s answer
+    * a link to change their answer
 
 3.	Between the `<dt>` tags with the `class="govuk-summary-list__key"` enter the question (the component’s label).
     ```html
@@ -183,7 +183,7 @@ Use a separate summary list for each group of related answers *(e.g. title, firs
     ```
 6.	In the **accept and send** button component, at the bottom of the page, enter the 'end page' of your prototype into the **goTo** JavaScript function.
 
-    In the example below, the next page will be `'endPage.html'`:
+    In the example below, the 'end page' will be `'endPage.html'`:
     ```html
     <button class="govuk-button" data-module="govuk-button" onclick="goTo('endPage.html')">
         Accept and send
@@ -222,13 +222,13 @@ The 'end page' is used to let the user know they’ve completed the application 
 
 2.	Move through the prototype checking:
 
-* the correct error messages are shown for unanswered questions
-* the questions marked optional do not show an error message when left unanswered
-* the 'form page' moves to the next page when all the required questions have been answered
-* the back link at the top of each 'form page' works
-* the 'check page' displays the entered values correctly
-* the change links on the 'check page' go to the correct 'form page'
-* once the value has been updated and submitted on a 'form page' it returns to the 'check page' with the new value displayed
+    * the correct error messages are shown for unanswered questions
+    * the questions marked optional do not show an error message when left unanswered
+    * the 'form page' moves to the next page when all the required questions have been answered
+    * the back link at the top of each 'form page' works
+    * the 'check page' displays the entered values correctly
+    * the change links on the 'check page' go to the correct 'form page'
+    * once the value has been updated and submitted on a 'form page' it returns to the 'check page' with the new value displayed
 
 3. The main cause of errors is normally due to:
     * an input or error component with a duplicate `id`
