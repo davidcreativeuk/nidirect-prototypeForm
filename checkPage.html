@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en">
 
 <head>
   <meta charset="utf-8">
@@ -20,7 +20,7 @@
     document.body.className = ((document.body.className) ? document.body.className + ' js-enabled' : 'js-enabled');
 
   </script>
-    <a href="#main-content" class="govuk-skip-link">Skip to main content</a>
+  <a href="#main-content" class="govuk-skip-link">Skip to main content</a>
   <header role="banner">
     <div class="nidirect-header">
       <div class="govuk-width-container">
@@ -60,85 +60,93 @@
       <div class="govuk-grid-row">
         <div class="govuk-grid-column-two-thirds">
 
+
+          <h1 class="govuk-heading-xl">Check your answers before sending your application</h1>
+
           <!-- GOV.UK design system 'Check you answers' pattern  -->
           <!-- Available at - https://design-system.service.gov.uk/patterns/check-answers/ -->
-            <h1 class="govuk-heading-xl">Check your answers before sending your application</h1>
 
-            <h2 class="govuk-heading-m">Grouping name</h2>
-    
-            <dl class="govuk-summary-list govuk-!-margin-bottom-9">
-              <div class="govuk-summary-list__row">
-                <dt class="govuk-summary-list__key">
-                  Title
-                </dt>
-                <dd class="govuk-summary-list__value">
-                  <span id="user-title"></span>
-                </dd>
-                <dd class="govuk-summary-list__actions">
-                  <a class="govuk-link" href="formPage-1.html">
-                    Change<span class="govuk-visually-hidden"> title</span>
-                  </a>
-                </dd>
-              </div>
-              <div class="govuk-summary-list__row">
-                <dt class="govuk-summary-list__key">
-                  First name
-                </dt>
-                <dd class="govuk-summary-list__value">
-                  <span id="firstname"></span>
-                  
-                </dd>
-                <dd class="govuk-summary-list__actions">
-                  <a class="govuk-link" href="formPage-1.html">
-                    Change<span class="govuk-visually-hidden"> first name</span>
-                  </a>
-                </dd>
-              </div>
-              
-              <div class="govuk-summary-list__row">
-                <dt class="govuk-summary-list__key">
-                  Provide more details about your application
-                </dt>
-                <dd class="govuk-summary-list__value">
-                  <span id="more-detail--opt"></span>
-                </dd>
-                <dd class="govuk-summary-list__actions">
-                  <a class="govuk-link" href="formPage-1.html">
-                    Change<span class="govuk-visually-hidden"> details about your application</span>
-                  </a>
-                </dd>
-              </div>
+          <!--Use a <h2> heading tag to give each summary list a name.-->
+          <!--Use a separate summary list for each group of related answers.-->
+          <!-- Summary list with actions component available at - https://design-system.service.gov.uk/components/summary-list/#summary-list-with-actions -->
 
-              <div class="govuk-summary-list__row">
-                <dt class="govuk-summary-list__key">
-                  Upload your CV
-                </dt>
-                <dd class="govuk-summary-list__value">
-                  <span id="file-upload-cv"></span>
-                </dd>
-                <dd class="govuk-summary-list__actions">
-                  <a class="govuk-link" href="formPage-1.html">
-                    Change<span class="govuk-visually-hidden"> upload your CV</span>
-                  </a>
-                </dd>
-              </div>
-            </dl>
-         
-           
-            <h2 class="govuk-heading-m">Now send your application</h2>
+          <h2 class="govuk-heading-m">Grouping name</h2>
 
-            <p class="govuk-body">By submitting this notification you are confirming that, to the best of your knowledge, the details you are providing are correct.</p>
-    
-              <button class="govuk-button" data-module="govuk-button" onclick="goTo('endPage.html')">
-                Accept and send
-              </button>
+          <dl class="govuk-summary-list govuk-!-margin-bottom-9">
+            <div class="govuk-summary-list__row">
+              <dt class="govuk-summary-list__key">
+                Title
+              </dt>
+              <dd class="govuk-summary-list__value">
+                <span id="user-title"></span>
+              </dd>
+              <dd class="govuk-summary-list__actions">
+                <a class="govuk-link" href="formPage-1.html">
+                  Change<span class="govuk-visually-hidden"> title</span>
+                </a>
+              </dd>
+            </div>
+            <div class="govuk-summary-list__row">
+              <dt class="govuk-summary-list__key">
+                First name
+              </dt>
+              <dd class="govuk-summary-list__value">
+                <span id="firstname"></span>
+
+              </dd>
+              <dd class="govuk-summary-list__actions">
+                <a class="govuk-link" href="formPage-1.html">
+                  Change<span class="govuk-visually-hidden"> first name</span>
+                </a>
+              </dd>
+            </div>
+
+            <div class="govuk-summary-list__row">
+              <dt class="govuk-summary-list__key">
+                Provide more details about your application
+              </dt>
+              <dd class="govuk-summary-list__value">
+                <span id="more-detail--opt"></span>
+              </dd>
+              <dd class="govuk-summary-list__actions">
+                <a class="govuk-link" href="formPage-1.html">
+                  Change<span class="govuk-visually-hidden"> details about your application</span>
+                </a>
+              </dd>
+            </div>
+
+            <div class="govuk-summary-list__row">
+              <dt class="govuk-summary-list__key">
+                Upload your CV
+              </dt>
+              <dd class="govuk-summary-list__value">
+                <span id="file-upload-cv"></span>
+              </dd>
+              <dd class="govuk-summary-list__actions">
+                <a class="govuk-link" href="formPage-1.html">
+                  Change<span class="govuk-visually-hidden"> upload your CV</span>
+                </a>
+              </dd>
+            </div>
+          </dl>
+
+          <!--insert additional summary lists here-->
+
+          <h2 class="govuk-heading-m">Now send your application</h2>
+
+          <p class="govuk-body">By submitting this notification you are confirming that, to the best of your knowledge,
+            the details you are providing are correct.</p>
+
+          <!--enter the 'end page' of your prototype into the 'goTo' JavaScript function-->
+          <button class="govuk-button" data-module="govuk-button" onclick="goTo('endPage.html')">
+            Accept and send
+          </button>
         </div>
       </div>
     </main>
   </div>
   <footer class="nidirect_footer" role="contentinfo">
     <div class="govuk-width-container ">
-      <!-- <p class="govuk-body"> -->
       <ul>
         <li> <a class="govuk-link" href="http://www.nidirect.gov.uk/crown-copyright" target="_blank" rel="nofollow">
             &copy; Crown copyright (external link opens in a new window / tab)
@@ -165,9 +173,7 @@
             Accessibility
           </a>
         </li>
-        
       </ul>
-      <!-- </p> -->
     </div>
   </footer>
   <script src="javascript/all.js"></script>
