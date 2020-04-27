@@ -86,14 +86,14 @@ You can have as many 'form pages' as you need for your application.
     ```html
     <input class="govuk-input " id="firstname" name="firstname" type="text">
     ```
-6.	To make a component optional, add the text `--opt` to the end of the component’s `id`.
+6.	To make an input component optional, add the text `--opt` to the end of the component’s `id`.
 
     If the component is marked as **optional** it will save any value entered. But it will not show its error message if the question hasn’t been answered.
 
     ```html
     <input class="govuk-input " id="firstname--opt" name="firstname" type="text">
     ```
-    Remember to update the `for` attribute in the component label to match the new `id` and add the text **(optional)** to the label.
+    Remember to update the `for` attribute in the component's label to match the new `id` and add the text **(optional)** to the label.
 
     ```html
     <label class="govuk-label govuk-label--m" for="firstname--opt">
@@ -120,7 +120,7 @@ Use a separate summary list for each group of related answers *(e.g. title, firs
 
 1.  Open your copy of the 'check page' HTML template.
 
-    The 'check page' HTML template already has a summary list and its `<h2>` heading in place.
+    The 'check page' HTML template already has a summary list with its corresponding `<h2>` heading in place.
     
     To add another summary list go to [GOV.UK design system - summary list with actions component]( https://design-system.service.GOV.UK/components/summary-list/#summary-list-with-actions), copy the HTML of the component and paste it into the 'check page' below the current summary list.
 
