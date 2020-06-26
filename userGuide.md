@@ -172,6 +172,14 @@ Use a separate summary list for each group of related answers *(e.g. title, firs
     </dd>
     ```
 
+    To insert a forward slash character `/` after the day and month values of a date (for example 07/09/1988), add the attribute `name="addslash"` to the `<span>`s corresponding to the day and month.
+
+     ```html
+    <dd class="govuk-summary-list__value">
+        <span id="dob-day" name="addslash"></span><span id="dob-month" name="addslash"></span><span id="dob-year"></span>
+    </dd>
+    ```
+
 
 5.	Between the `<dd>` tags with the `class="govuk-summary-list__actions"` insert the link address to the input component’s 'form page'.
     
