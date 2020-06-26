@@ -62,7 +62,9 @@ You can have as many 'form pages' as you need for your application.
 
 3.	Paste the HTML of the component into your copy of the 'form page' below the `<h1>` heading.
 
-4.	If the component is used to enter data, add a [GOV.UK design system - error message]( https://design-system.service.GOV.UK/components/error-message/) after the label and hint text of the component.
+4.	If the component is used to enter data, add a [GOV.UK design system - error message]( https://design-system.service.GOV.UK/components/error-message/) after the label and hint text of the component. 
+
+    If the component is a fieldset of radios or checkboxes, add a [GOV.UK design system - error message]( https://design-system.service.GOV.UK/components/error-message/) after the legend and hint text of the component. 
 
     ```html
     <div class="govuk-form-group">
