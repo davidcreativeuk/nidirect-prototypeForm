@@ -1,9 +1,9 @@
 # nidirect-prototypeForm
-**version 1.1.0**
+**version 1.2.0**
 
-**GOV.UK Frontend version 3.7.0**
+**GOV.UK Frontend version 3.8.1**
 
-This is a JavaScript based prototyping kit for [nidirect]( https://www.nidirect.gov.uk/) applications. The aim of the kit is to allow designers, with minimal coding skills, to create  interactive prototypes for usability testing.
+This is a JavaScript based prototyping kit for [nidirect]( https://www.nidirect.gov.uk/) applications. The aim of the kit is to allow designers, with minimal coding skills, to create interactive prototypes for usability testing.
 
 ## Limitations
 Do not use the prototype kit for production. Prototypes made with the kit do not have the same security or accessibility provisions as a real application. You should only use the kit to create prototypes for user research and usability testing.
