@@ -1,9 +1,9 @@
 # nidirect-prototypeForm
-**version 1.3.0**
+**version 1.4.0**
 
-[**GOV.UK Frontend version 3.9.1**](https://github.com/alphagov/govuk-frontend)
+[**GOV.UK Frontend version 3.10.0**](https://github.com/alphagov/govuk-frontend)
 
-[**nidirect frontend version 1.0.0**](https://github.com/dof-dss/nidirect-frontend)
+[**nidirect frontend version 2.0.0**](https://github.com/dof-dss/nidirect-frontend)
 
 This is a JavaScript based prototyping kit for [nidirect]( https://www.nidirect.gov.uk/) applications. The aim of the kit is to allow designers, with minimal coding skills, to create interactive prototypes for usability testing.
 
