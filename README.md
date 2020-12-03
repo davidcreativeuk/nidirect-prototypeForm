@@ -1,7 +1,7 @@
 # nidirect-prototypeForm
 **version 1.4.0**
 
-[**GOV.UK Frontend version 3.10.0**](https://github.com/alphagov/govuk-frontend)
+[**GOV.UK Frontend version 3.10.1**](https://github.com/alphagov/govuk-frontend)
 
 [**nidirect frontend version 2.0.0**](https://github.com/dof-dss/nidirect-frontend)
 
