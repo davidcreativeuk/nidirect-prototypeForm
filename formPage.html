@@ -1,14 +1,35 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en">
 
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>Page name | Service name | nidirect</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="robots" content="no index, no follow"/>   
+  <meta name="robots" content="no index, no follow" />
   <link rel="stylesheet" href="css/nidirect-all.min.css">
-  <link rel="shortcut icon" size="16x16 32x32 48x48" href="/assets/images/favicon.ico" type="image/x-icon">  
+  <link rel="shortcut icon" size="16x16 32x32 48x48" href="/assets/images/favicon.ico" type="image/x-icon">
+  <style>
+    ul.govuk-list--bullet li~ul {
+        list-style: circle;
+        padding-inline-start: 30px;
+        margin-bottom: 5px;
+      }
+      ul.govuk-list--bullet ul>li {
+        margin-bottom: 0;
+      }
+          ul.govuk-list--bullet ul>li:last-child {
+        margin-bottom: 0;
+      }
+    @media(min-width:641px) { /* govuk media query tablet width */
+      ul.govuk-list--bullet li~ul {
+        margin-bottom: 10px; 
+      }
+      ul.govuk-list--bullet ul>li {
+        margin-bottom: 5px;
+      }
+    }
+  </style>
 </head>
 
 <body class="govuk-template__body ">
@@ -16,33 +37,40 @@
     document.body.className = ((document.body.className) ? document.body.className + ' js-enabled' : 'js-enabled');
 
   </script>
-    <a href="#main-content" class="govuk-skip-link">Skip to main content</a>
+  <a href="#main-content" class="govuk-skip-link">Skip to main content</a>
 
-    <header role="banner">
-      <div class="nidirect-header">
-       <div class="govuk-width-container">
+  <header role="banner">
+    <div class="nidirect-header">
+      <div class="govuk-width-container">
         <div class="nidirect-header__logo">
-         <svg role="presentation" focusable="false" xmlns="http://www.w3.org/2000/svg" width="133" height="32" viewbox="0 0 133 32"> 
-          <path fill="currentColor" d="M0,8.93l7-.41a31.54,31.54,0,0,1,.62,4.64,10.06,10.06,0,0,1,3.31-3.43,8.4,8.4,0,0,1,4.34-1.15,6.65,6.65,0,0,1,3.49.83A5.74,5.74,0,0,1,21,12a9.17,9.17,0,0,1,.86,4V26.17a2.24,2.24,0,0,0,.5,1.63,2.48,2.48,0,0,0,1.71.47h.68a2,2,0,0,0,1.45-.47,1.93,1.93,0,0,0,.47-1.42V13.15A2.42,2.42,0,0,0,26,11.26a3,3,0,0,0-2.13-.65H22.17V8.93l8.36-.24V26.78a1.36,1.36,0,0,0,.35,1.06,1.92,1.92,0,0,0,1.3.44h2V30H14.54V28.28H15.6a3.34,3.34,0,0,0,2.07-.47,1.78,1.78,0,0,0,.59-1.42v-9A8.37,8.37,0,0,0,17.37,13a4.13,4.13,0,0,0-3.81-2,5.39,5.39,0,0,0-4.26,2,8,8,0,0,0-1.68,5.32v7.8a2.24,2.24,0,0,0,.5,1.63,2.56,2.56,0,0,0,1.74.47h1.42V30H.21V28.29H1.66a2.58,2.58,0,0,0,1.66-.44,1.38,1.38,0,0,0,.59-1.12V13.12a2.66,2.66,0,0,0-.74-2,2.88,2.88,0,0,0-2.1-.71H0Z"/>
-          <path fill="currentColor" d="M24.29,3.75A3.66,3.66,0,1,1,28,7.41h0a3.65,3.65,0,0,1-3.66-3.66"/>
-          <path fill="currentColor" d="M46.61,24.3a3.89,3.89,0,0,1-3,1.51c-2.39,0-3.31-2-3.31-6.3,0-4.41.95-6.5,3.43-6.5a3.82,3.82,0,0,1,2.87,1.63ZM54,0H46.61V11.23a8.06,8.06,0,0,0-5.94-2.66c-4.73,0-8.13,4.26-8.13,11s3.25,10.85,8,10.85a9.25,9.25,0,0,0,6.09-2.54V30H54V0"/>
-          <rect fill="currentColor" x="55.3" y="8.84" width="7.36" height="21.1"/> 
-          <path fill="currentColor" d="M64,30h7.39V16c1.25-1,3.69-1.92,7.48-.53V8.37c-3.13.21-5.59.53-7.48,2.84V8.85H64Z"/>   
-          <path fill="currentColor" d="M116.33,22.11c-.74,2.39-2.16,3.66-4,3.66-2.66,0-3.54-2.13-3.54-6.53,0-4.08.8-6,3.19-6,1.51,0,2.25,1,2.6,3.07l6.59-.5c-1.27-4.76-4.73-7.42-9.55-7.42-6.21,0-10.58,4.49-10.58,11.23s4.2,11,10.55,11a9.76,9.76,0,0,0,10-7.51Z"/>   
-          <path fill="currentColor" d="M133,29.91v-5a9.67,9.67,0,0,1-1.86.24c-1.39,0-2-.59-2-1.92V13.49H133V8.85h-3.84V1.39H122V25c0,3.72,2.28,5.5,7,5.5a15,15,0,0,0,4.1-.57"/>   
-          <path fill="currentColor" d="M55.3,3.75A3.66,3.66,0,1,1,59,7.41,3.66,3.66,0,0,1,55.3,3.75h0"/>   
-          <path fill="currentColor" d="M100.49,20.93c0-.44,0-.83,0-1.21,0-7.06-4.2-11.32-10.79-11.32S78.56,12.81,78.56,19.69c0,6.68,4.37,11,11.17,11,5,0,8.48-2,10.58-5.79L95.58,22.7a5,5,0,0,1-4.73,3c-2.84,0-4.52-1.68-4.52-4.61v-.12ZM89.76,12.77c2.1,0,3.34,1.51,3.34,4.14H86.54C86.6,14.19,87.72,12.77,89.76,12.77Z"/> 
-         </svg>
-         <span class="govuk-visually-hidden">(n i direct government services)</span>
+          <svg role="presentation" focusable="false" xmlns="http://www.w3.org/2000/svg" width="133" height="32"
+            viewbox="0 0 133 32">
+            <path fill="currentColor"
+              d="M0,8.93l7-.41a31.54,31.54,0,0,1,.62,4.64,10.06,10.06,0,0,1,3.31-3.43,8.4,8.4,0,0,1,4.34-1.15,6.65,6.65,0,0,1,3.49.83A5.74,5.74,0,0,1,21,12a9.17,9.17,0,0,1,.86,4V26.17a2.24,2.24,0,0,0,.5,1.63,2.48,2.48,0,0,0,1.71.47h.68a2,2,0,0,0,1.45-.47,1.93,1.93,0,0,0,.47-1.42V13.15A2.42,2.42,0,0,0,26,11.26a3,3,0,0,0-2.13-.65H22.17V8.93l8.36-.24V26.78a1.36,1.36,0,0,0,.35,1.06,1.92,1.92,0,0,0,1.3.44h2V30H14.54V28.28H15.6a3.34,3.34,0,0,0,2.07-.47,1.78,1.78,0,0,0,.59-1.42v-9A8.37,8.37,0,0,0,17.37,13a4.13,4.13,0,0,0-3.81-2,5.39,5.39,0,0,0-4.26,2,8,8,0,0,0-1.68,5.32v7.8a2.24,2.24,0,0,0,.5,1.63,2.56,2.56,0,0,0,1.74.47h1.42V30H.21V28.29H1.66a2.58,2.58,0,0,0,1.66-.44,1.38,1.38,0,0,0,.59-1.12V13.12a2.66,2.66,0,0,0-.74-2,2.88,2.88,0,0,0-2.1-.71H0Z" />
+            <path fill="currentColor" d="M24.29,3.75A3.66,3.66,0,1,1,28,7.41h0a3.65,3.65,0,0,1-3.66-3.66" />
+            <path fill="currentColor"
+              d="M46.61,24.3a3.89,3.89,0,0,1-3,1.51c-2.39,0-3.31-2-3.31-6.3,0-4.41.95-6.5,3.43-6.5a3.82,3.82,0,0,1,2.87,1.63ZM54,0H46.61V11.23a8.06,8.06,0,0,0-5.94-2.66c-4.73,0-8.13,4.26-8.13,11s3.25,10.85,8,10.85a9.25,9.25,0,0,0,6.09-2.54V30H54V0" />
+            <rect fill="currentColor" x="55.3" y="8.84" width="7.36" height="21.1" />
+            <path fill="currentColor"
+              d="M64,30h7.39V16c1.25-1,3.69-1.92,7.48-.53V8.37c-3.13.21-5.59.53-7.48,2.84V8.85H64Z" />
+            <path fill="currentColor"
+              d="M116.33,22.11c-.74,2.39-2.16,3.66-4,3.66-2.66,0-3.54-2.13-3.54-6.53,0-4.08.8-6,3.19-6,1.51,0,2.25,1,2.6,3.07l6.59-.5c-1.27-4.76-4.73-7.42-9.55-7.42-6.21,0-10.58,4.49-10.58,11.23s4.2,11,10.55,11a9.76,9.76,0,0,0,10-7.51Z" />
+            <path fill="currentColor"
+              d="M133,29.91v-5a9.67,9.67,0,0,1-1.86.24c-1.39,0-2-.59-2-1.92V13.49H133V8.85h-3.84V1.39H122V25c0,3.72,2.28,5.5,7,5.5a15,15,0,0,0,4.1-.57" />
+            <path fill="currentColor" d="M55.3,3.75A3.66,3.66,0,1,1,59,7.41,3.66,3.66,0,0,1,55.3,3.75h0" />
+            <path fill="currentColor"
+              d="M100.49,20.93c0-.44,0-.83,0-1.21,0-7.06-4.2-11.32-10.79-11.32S78.56,12.81,78.56,19.69c0,6.68,4.37,11,11.17,11,5,0,8.48-2,10.58-5.79L95.58,22.7a5,5,0,0,1-4.73,3c-2.84,0-4.52-1.68-4.52-4.61v-.12ZM89.76,12.77c2.1,0,3.34,1.51,3.34,4.14H86.54C86.6,14.19,87.72,12.77,89.76,12.77Z" />
+          </svg>
+          <span class="govuk-visually-hidden">(n i direct government services)</span>
         </div>
-       </div>
       </div>
-      <div class="nidirect-servicename-container">
-       <div class="govuk-width-container">
+    </div>
+    <div class="nidirect-servicename-container">
+      <div class="govuk-width-container">
         <span class="govuk-body govuk-!-font-size-27 nidirect-servicename">Service name</span>
-       </div>
-      </div>     
-     </header>   
+      </div>
+    </div>
+  </header>
   <div class="govuk-width-container ">
 
     <!-- back link to previous browser page  -->
@@ -63,13 +91,64 @@
               </ul>
             </div>
           </div>
-          
+
           <!-- Page title -->
           <h1 class="govuk-heading-xl">Name of page</h1>
 
           <!-- Paste GOV.UK design system components here -->
           <!-- available at: https://design-system.service.gov.uk/components/  -->
-          
+
+          <ul class="govuk-list govuk-list--bullet">
+            <li>Annex 2 Provisions of Union Law referred to in Article 5(4) </li>
+            <ul>
+              <li> 5. Trade Defence Instruments</li>
+            </ul>
+            <li>Annex 5 Provisions of Union Law referred to in Article 10(1) </li>
+            <ul>
+              <li> 5. Compatibility rules </li>
+              <ul>
+                <li> 12. Energy and environment </li>
+                <ul>
+                  <li> 5.12.1 Environment and energy</li>
+                </ul>
+              </ul>
+            </ul>
+          </ul>
+
+          <ul class="govuk-list govuk-list--bullet">
+            <li>Annex 2 Provisions of Union Law referred to in Article 5(4) </li>
+            <li>Annex 5 Provisions of Union Law referred to in Article 10(1) </li>
+            <ul>
+              <li> 5. Compatibility rules </li>
+              <ul>
+                <li> 12. Energy and environment </li>
+                <ul>
+                  <li> 5.12.1 Environment and energy</li>
+                </ul>
+              </ul>
+            </ul>
+            <li>Annex 6 Provisions of Union Law referred to in Article 10(1) </li>
+          </ul>
+
+          <ul class="govuk-list govuk-list--bullet">
+            <li>Annex 2 Provisions of Union Law referred to in Article 5(4) </li>
+            <ul>
+              <li> 5. Trade Defence Instruments</li>
+              <li> 5. Trade Defence Instruments</li>
+              <li> 5. Trade Defence Instruments</li>
+            </ul>
+            <li>Annex 5 Provisions of Union Law referred to in Article 10(1) </li>
+            <ul>
+              <li> 5. Compatibility rules </li>
+              <ul>
+                <li> 12. Energy and environment </li>
+                <ul>
+                  <li> 5.12.1 Environment and energy</li>
+                </ul>
+              </ul>
+            </ul>
+          </ul>
+
           <div class="govuk-form-group">
             <label class="govuk-label govuk-label--m" for="user-title">
               Title
@@ -95,31 +174,33 @@
             </span>
             <input class="govuk-input " id="firstname" name="firstname" type="text">
           </div>
-          
-          
+
+
           <div class="govuk-form-group">
             <label class="govuk-label govuk-label--m" for="more-detail--opt">
               Provide more details about your application (optional)
             </label>
             <span id="more-detail-hint" class="govuk-hint">
-              Do not include personal or financial information, like your National Insurance number or credit card details.
+              Do not include personal or financial information, like your National Insurance number or credit card
+              details.
             </span>
             <span id="more-detail-error" class="govuk-error-message">
               <span class="govuk-visually-hidden">Error:</span> Provide more detail on your application
             </span>
-            <textarea class="govuk-textarea" id="more-detail--opt" name="more-detail--opt" rows="5" aria-describedby="more-detail-hint"></textarea>
+            <textarea class="govuk-textarea" id="more-detail--opt" name="more-detail--opt" rows="5"
+              aria-describedby="more-detail-hint"></textarea>
           </div>
-          
+
           <div class="govuk-form-group">
             <label class="govuk-label govuk-label--m" for="file-upload-cv">
-              Upload your CV
+              Upload files
             </label>
             <span id="file-upload-1-error" class="govuk-error-message">
               <span class="govuk-visually-hidden">Error:</span> Select a document to upload
             </span>
-            <input class="govuk-file-upload" id="file-upload-cv" name="file-upload-cv" type="file" >
-        </div>
-          
+            <input class="govuk-file-upload" id="file-upload-cv" name="file-upload-cv" type="file" multiple>
+          </div>
+
           <!--enter the next page of your prototype into the 'saveData' JavaScript function-->
           <button class="govuk-button" onclick="saveData('checkPage.html')">
             Save and continue
@@ -131,21 +212,21 @@
   </div>
   <footer class="nidirect_footer" role="contentinfo">
     <div class="govuk-width-container">
-     <p class="govuk-body">
-      <ul>              
-       <li>
-         <a class="govuk-link" href="#" target="blank" rel="nofollow">Privacy (opens in a new tab)</a>
-       </li>    
-       <li>
-         <a class="govuk-link" href="#" target="blank" rel="nofollow">Cookies (opens in a new tab)</a>
-       </li>                 
-       <li>
-         <a class="govuk-link" href="#" target="blank" rel="nofollow">Accessibility</a>
-       </li>
+      <p class="govuk-body">
+      <ul>
+        <li>
+          <a class="govuk-link" href="#" target="blank" rel="nofollow">Privacy (opens in a new tab)</a>
+        </li>
+        <li>
+          <a class="govuk-link" href="#" target="blank" rel="nofollow">Cookies (opens in a new tab)</a>
+        </li>
+        <li>
+          <a class="govuk-link" href="#" target="blank" rel="nofollow">Accessibility</a>
+        </li>
       </ul>
-     </p>
+      </p>
     </div>
-   </footer>
+  </footer>
   <script src="javascript/all.js"></script>
   <script>
     window.GOVUKFrontend.initAll()
